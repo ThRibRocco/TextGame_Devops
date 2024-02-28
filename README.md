@@ -1,16 +1,17 @@
 <h1 align="center"> Projeto Game </h1>
 
+<h2> Indice: </h2>
+<p> - Introdução </p>
+<p> - Processo do projeto </p>
+<p> - Contribuentes </p>
+
+<h2> Introdução: </h2> 
+<p> TextGame de mistério desenvolvido com as linguagens HTML e Python para a matéria de Devops da Faculdade Impacta. </p>
+
+<h2> Processo do projeto: </h2>
 <p>
  <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
-
-<h2> Indice: </h2>
-<p> - Introdução </p>
-<p> - </p>
-<p> - Contribuentes </p>
-
-<h2> Ponto: </h2>
-<p> TextGame de mistério desenvolvido com as linguagens HTML e Python para a matéria de Devops da Faculdade Impacta. </p>
 
 <h2 id="contri" name="contri"> Contribuentes: </h2>
 

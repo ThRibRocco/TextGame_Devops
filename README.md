@@ -9,7 +9,7 @@
 <p> - Detalhamento de Atividade</p>
 
 <h2> Grupo: </h2>
-|<img loading="lazy" src="https://github.com/lu-tamura/TextGame_Devops/assets/159657768/0aaab330-d9a3-4bd8-8bbb-48717734302e"/><br><sub>Saturn Games</sub>|
+| [<img loading="lazy" src="https://github.com/lu-tamura/TextGame_Devops/assets/159657768/0aaab330-d9a3-4bd8-8bbb-48717734302e"/><br><sub>Saturn Games</sub>] |
 | :---: |
 
 <p> Composto por: </p>

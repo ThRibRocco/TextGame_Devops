@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto Game </h1>
+<h1 align="center"> Projeto DevOpsGame </h1>
 
 <h2> Indice: </h2>
 <p> - Grupo </p>
@@ -9,7 +9,6 @@
 <p> - Detalhamento de Atividade</p>
 
 <h2> Grupo: </h2>
-
 |<img loading="lazy" src="https://github.com/lu-tamura/TextGame_Devops/assets/159657768/0aaab330-d9a3-4bd8-8bbb-48717734302e"/><br><sub>Saturn Games</sub>|
 | :---: |
 
@@ -19,7 +18,7 @@
 | :---: | :---: | :---: | :---: | 
 
 <h2> Tema: </h2> 
-<p> Um TextGame do gênero mistério que se passa em São Paulo, Brasil, onde o detetive Isaac Alencar investiga um caso de latrocinio, roubo segiudo de morte, João que, logo a frente, descobrimos que este caso não se trata mais de um mero acidente, o que choca a ele e deixa todos contra ele.</p>
+<p> Um TextGame do gênero mistério que se passa em São Paulo, Brasil, onde o detetive Isaac Alencar investiga um caso de latrocinio, roubo seguido de morte, que, logo a frente, descobrimos que este caso não se trata mais de um mero acidente, o que choca a ele e deixa todos contra ele.</p>
 
 <h2> Objetivo: </h2>
 
@@ -37,7 +36,7 @@
 <p> Viviane M. Marques: " "</p>
 
 <h2> Ferramentas: </h2>
-<h3> As ferramentas que iram/estão sendo usadas neste projeto são: </h3>
+<h3> As ferramentas que estão sendo usadas no projeto: </h3>
 <p> - GitHub</p>
 <p> - VSCode </p>
 <p> - Python </p>
@@ -50,10 +49,12 @@
 
 <h2> Detalhamento de Atividade: </h2>
 <p> Neste ponto, detalhamos o que cada membro do grupo está/estava responsável de realizar no projeto. Vamos nos dividir em duplas para termos maior facilidade para o desenvolvimento deste, uma dupla para a parte de BackEnd e outra de FrontEnd
+ 
 <h3> Responsabilidade das duplas: </h3>
 - A responsável pelo processo de FrontEnd, onde daremos uma aparência ainda mais intertativa e chamativa para o jogador, onde poderá adiquirir uma inspiração maior com relação ao jogo; e
 - A responsável pelo processo de BackEnd, se encarregará da parte de BackEnd, trazendo várias decisões das quais o jogador terá de escolher, resultando em diferentes resultados.
 </p>
+
 <h3> Responsabilidades de cada membro: </h3>
  <p>
  - Luana T.M.:

@@ -30,9 +30,9 @@
 <h3> Objetivo Individual da Equipe: </h3>
 <p> Thainá R. Rocco: "Por meio deste projeto, tenho objetivo de adiquirir conhecimento sobre o tema "TextGame", desenvolvimento de jogos, e com intuito de apresentar ao final deste um projeto do qual um user possa se divertir e compreender melhor como é se encontrar em uma situação como a destes personagens que são ilustrados neste"</p>
 
-<p> Luana T. Monteiro: " "</p>
+<p> Luana T. Monteiro: "Aprimorar o uso da linguagem HTML e entender mais como é o trabalho do front-end na prática, além de descobrir mais sobre os processos de criação de um jogo com o desenvolvimento da história e a criação de uma identidade visual para o TextGame"</p>
 
-<p> Mirele Nunes F.: "Aprimorar o uso da linguagem HTML e entender mais como é o trabalho do front-end na prática, além de descobrir mais sobre os processos de criação de um jogo com o desenvolvimento da história e a criação de uma identidade visual para o TextGame"</p>
+<p> Mirele Nunes F.: " "</p>
 
 <p> Viviane M. Marques: " "</p>
 

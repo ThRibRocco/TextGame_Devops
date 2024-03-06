@@ -32,7 +32,7 @@
 
 <p> Luana T. Monteiro: " "</p>
 
-<p> Mirele Nunes F.: " "</p>
+<p> Mirele Nunes F.: "Aprimorar o uso da linguagem HTML e entender mais como é o trabalho do front-end na prática, além de descobrir mais sobre os processos de criação de um jogo com o desenvolvimento da história e a criação de uma identidade visual para o TextGame"</p>
 
 <p> Viviane M. Marques: " "</p>
 

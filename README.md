@@ -32,7 +32,7 @@
 
 <p> Luana T. Monteiro: "Aprimorar o uso da linguagem HTML e entender mais como é o trabalho do front-end na prática, além de descobrir mais sobre os processos de criação de um jogo com o desenvolvimento da história e a criação de uma identidade visual para o TextGame"</p>
 
-<p> Mirele Nunes F.: " "</p>
+<p> Mirele Nunes F.: "Aprimorar minhas competências em desenvolvimento front-end e explorar mais profundamente o desenvolvimento back-end para aprimorar ou reforçar meu entendimento sobre certos aspectos"</p>
 
 <p> Viviane M. Marques: " "</p>
 

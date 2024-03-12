@@ -34,7 +34,7 @@
 
 <p> Mirele Nunes F.: "Aprimorar minhas competências em desenvolvimento front-end e explorar mais profundamente o desenvolvimento back-end para aprimorar ou reforçar meu entendimento sobre certos aspectos"</p>
 
-<p> Viviane M. Marques: " "</p>
+<p> Viviane M. Marques: "Aprimorar os conhecimentos em HTML, melhorar as habilidades com trabalho em equipe e processo criativo. "</p>
 
 <h2> Ferramentas: </h2>
 <h3> As ferramentas que estão sendo usadas no projeto: </h3>

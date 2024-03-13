@@ -1,12 +1,14 @@
 <h1 align="center"> Projeto DevOpsGame </h1>
 
+<ul> 
 <h2> Indice: </h2>
-<p> - Grupo </p>
-<p> - Tema </p>
-<p> - Objetivo </p>
-<p> - Ferramentas </p>
-<p> - Processo do projeto </p>
-<p> - Detalhamento de Atividade</p>
+<li> Grupo </li>
+<li> Tema </li>
+<li> Objetivo </li>
+<li> Ferramentas </li>
+<li> Processo do projeto </li>
+<li> Detalhamento de Atividade</li>
+</ul>
 
 <h2> Grupo: </h2>
 
@@ -36,11 +38,13 @@
 
 <p> Viviane M. Marques: "Aprimorar os conhecimentos em HTML, melhorar as habilidades com trabalho em equipe e processo criativo. "</p>
 
+<ul>
 <h2> Ferramentas: </h2>
 <h3> As ferramentas que estão sendo usadas no projeto: </h3>
-<p> - GitHub</p>
-<p> - VSCode </p>
-<p> - Python </p>
+<li> - GitHub</li>
+<li> - VSCode </li>
+<li> - Python </li>
+</ul>
 
 <h2> Processo do projeto: </h2>
 <p>
@@ -49,17 +53,18 @@
 
 
 <h2> Detalhamento de Atividade: </h2>
-<p> Neste ponto, detalhamos o que cada membro do grupo está/estava responsável de realizar no projeto. Vamos nos dividir em duplas para termos maior facilidade para o desenvolvimento deste, uma dupla para a parte de BackEnd e outra de FrontEnd
- 
-<h3> Responsabilidade das duplas: </h3>
-- A responsável pelo processo de FrontEnd, onde daremos uma aparência ainda mais intertativa e chamativa para o jogador, onde poderá adiquirir uma inspiração maior com relação ao jogo; e
-- A responsável pelo processo de BackEnd, se encarregará da parte de BackEnd, trazendo várias decisões das quais o jogador terá de escolher, resultando em diferentes resultados.
-</p>
+<p> Neste ponto, detalhamos o que cada membro do grupo está/estava responsável de realizar no projeto. Vamos nos dividir em duplas para termos maior facilidade para o desenvolvimento deste, uma dupla para a parte de BackEnd e outra de FrontEnd </p>
 
+<ul>
+<h3> Responsabilidade das duplas: </h3>
+<li> A responsável pelo processo de FrontEnd, onde daremos uma aparência ainda mais intertativa e chamativa para o jogador, onde poderá adiquirir uma inspiração maior com relação ao jogo; e </li>
+<li> A responsável pelo processo de BackEnd, se encarregará da parte de BackEnd, trazendo várias decisões das quais o jogador terá de escolher, resultando em diferentes resultados. </li>
+</ul>
+<ul>
+ 
 <h3> Responsabilidades de cada membro: </h3>
- <p>
- - Luana T.M.:
- - Mirele N.F.:
- - Thainá R.R.:
- - Viviane V.M.:
-</p>
+ <li> Luana T.M.: </li>
+ <li> Mirele N.F.: </li>
+ <li> Thainá R.R.: </li>
+ <li> Viviane V.M.: </li>
+</ul>

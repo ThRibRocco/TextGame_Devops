@@ -41,9 +41,9 @@
 <h2> Ferramentas: </h2>
 <h3> As ferramentas que estão sendo usadas no projeto: </h3>
 <ul>
-<li> - GitHub</li>
-<li> - VSCode </li>
-<li> - Python </li>
+<li> GitHub</li>
+<li> VSCode </li>
+<li> Python </li>
 </ul>
 
 <h2> Processo do projeto: </h2>
@@ -64,8 +64,8 @@
 
 <h3> Responsabilidades de cada membro: </h3>
 <ul>
- <li> Luana T.M.: </li>
- <li> Mirele N.F.: </li>
- <li> Thainá R.R.:</li>
- <li> Viviane V.M.: </li>
+ <li> Luana T.M.:"Parte FrontEnd "</li>
+ <li> Mirele N.F.:"Parte FrontEnd "</li>
+ <li> Thainá R.R.:"Parte BackEnd "</li>
+ <li> Viviane V.M.:"Parte BackEnd "</li>
 </ul>

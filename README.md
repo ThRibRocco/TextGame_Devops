@@ -21,7 +21,7 @@
 | :---: | :---: | :---: | :---: | 
 
 <h2> Tema: </h2> 
-<p> Um TextGame do gênero mistério que se passa em São Paulo, Brasil, onde o detetive Isaac Alencar investiga um caso de latrocinio, roubo seguido de morte, que, logo a frente, descobrimos que este caso não se trata mais de um mero acidente, o que choca a ele e deixa todos contra ele.</p>
+<p> Um TextGame do gênero mistério que se chama"Teia de Mistério" desenvovido pela nossa equipe. Este é um jogo em que sua hitória se passa em São Paulo, Brasil, onde o renomado detetive Isaac Alencar investiga um caso de latrocinio, que, logo a frente, descobrimos que este é um caso que dará abertura a outros do qual questionará o detetive sobre o que realmente aconteceu, e ao descobrir, isto choca a ele e a todos a sua volta.</p>
 
 <h2> Objetivo: </h2>
 

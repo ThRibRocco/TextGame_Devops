@@ -1,6 +1,6 @@
 <h1 align="center"> Projeto DevOpsGame </h1>
 
-<h2> Indice: </h2>
+<h2> Índice: </h2>
 <ul>
 <li> Grupo </li>
 <li> Tema </li>
@@ -21,22 +21,22 @@
 | :---: | :---: | :---: | :---: | 
 
 <h2> Tema: </h2> 
-<p> Um TextGame do gênero mistério que se chama"Teia de Mistério" desenvovido pela nossa equipe. Este é um jogo em que sua hitória se passa em São Paulo, Brasil, onde o renomado detetive Isaac Alencar investiga um caso de latrocinio, que, logo a frente, descobrimos que este é um caso que dará abertura a outros do qual questionará o detetive sobre o que realmente aconteceu, e ao descobrir, isto choca a ele e a todos a sua volta.</p>
+<p> "Teia de Mistério" é um textgame de escolha do gênero mistério desenvolvido pela nossa equipe. Sua hitória se passa em São Paulo, Brasil, onde o renomado detetive Isaac Alencar investiga um simples caso de latrocínio, que, logo a frente, descobrimos que se trata de algo muito maior, uma grande teia de crimes que irá fazer que o detetive se questione sobre o que realmente aconteceu.</p>
 
 <h2> Objetivo: </h2>
 
 <h3> Objetivo do Projeto: </h3>
-<p> Fazer um projeto sujerido pelo professor da matéria de DevOps com intuito de absorver conhecimento sobre a criação e desenvolvimento de um projeto em grupo, com cada membro deste possuindo uma tarefa para, no final, termos o produto deste projeto. Ao mesmo tempo, queremos também trazer entreterimento para as pessoas que desejarem utilizar o produto de forma que, ao iniciar o processo do jogo, estimule seu lado investigativo, curioso e questionador, ambientando o jogador ao meio pelo qual é apresentado neste, mostrando a importância das nossas decisões diante de multiplas cenas como essas que são apresentadas.
+<p> Fazer um projeto sugerido pelo professor da matéria de DevOps com intuito de absorver conhecimento sobre a criação e desenvolvimento de um projeto em grupo, com cada membro deste possuindo uma tarefa para, no final, termos o produto deste projeto. Ao mesmo tempo, queremos também trazer entretenimento para as pessoas que desejarem utilizar o produto de forma que, ao iniciar o processo do jogo, estimule seu lado investigativo, curioso e questionador, ambientando o jogador ao meio pelo qual é apresentado neste, mostrando a importância das nossas decisões diante de múltiplas cenas como as que são apresentadas.
 </p>
 
 <h3> Objetivo Individual da Equipe: </h3>
-<p> Thainá R. Rocco: "Por meio deste projeto, tenho objetivo de adiquirir conhecimento sobre o tema "TextGame", desenvolvimento de jogos, e com intuito de apresentar ao final deste um projeto do qual um user possa se divertir e compreender melhor como é se encontrar em uma situação como a destes personagens que são ilustrados neste"</p>
+<p> Thainá R. Rocco: Por meio deste projeto, tenho objetivo de adquirir conhecimento sobre o tema "TextGame", desenvolvimento de jogos, e com intuito de apresentar ao final deste um projeto do qual um user possa se divertir e compreender melhor como é se encontrar em uma situação como a destes personagens que são ilustrados neste.</p>
 
-<p> Luana T. Monteiro: "Aprimorar o uso da linguagem HTML e entender mais como é o trabalho do front-end na prática, além de descobrir mais sobre os processos de criação de um jogo com o desenvolvimento da história e a criação de uma identidade visual para o TextGame"</p>
+<p> Luana T. Monteiro: Aprimorar o uso da linguagem HTML e entender mais como é o trabalho do front-end na prática, além de descobrir mais sobre os processos de criação de um jogo com o desenvolvimento da história e a criação de uma identidade visual para o TextGame.</p>
 
-<p> Mirele Nunes F.: "Aprimorar minhas competências em desenvolvimento front-end e explorar mais profundamente o desenvolvimento back-end para aprimorar ou reforçar meu entendimento sobre certos aspectos"</p>
+<p> Mirele Nunes F.: Aprimorar minhas competências em desenvolvimento front-end e explorar mais profundamente o desenvolvimento back-end para aprimorar ou reforçar meu entendimento sobre certos aspectos.</p>
 
-<p> Viviane M. Marques: "Aprimorar os conhecimentos em HTML, melhorar as habilidades com trabalho em equipe e processo criativo. "</p>
+<p> Viviane M. Marques: Aprimorar os conhecimentos em HTML, melhorar as habilidades com trabalho em equipe e processo criativo. </p>
 
 <h2> Ferramentas: </h2>
 <h3> As ferramentas que estão sendo usadas no projeto: </h3>
@@ -64,8 +64,8 @@
 
 <h3> Responsabilidades de cada membro: </h3>
 <ul>
- <li> Luana T.M.:"Parte FrontEnd "</li>
- <li> Mirele N.F.:"Parte FrontEnd "</li>
- <li> Thainá R.R.:"Parte BackEnd "</li>
- <li> Viviane V.M.:"Parte BackEnd "</li>
+ <li> Luana T.M.: Parte FrontEnd </li>
+ <li> Mirele N.F.: Parte FrontEnd </li>
+ <li> Thainá R.R.: Parte BackEnd </li>
+ <li> Viviane V.M.: Parte BackEnd </li>
 </ul>

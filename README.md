@@ -42,8 +42,10 @@
 <h3> As ferramentas que estão sendo usadas no projeto: </h3>
 <ul>
 <li> GitHub</li>
-<li> VSCode (Linguagens HTML e CSS) </li>
+<li> VSCode (Visual Studio Code) </li>
 <li> Python </li>
+<li> HTML </li>
+<li> CSS </li>
 </ul>
 
 <h2> Processo do projeto: </h2>

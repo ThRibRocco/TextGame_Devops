@@ -67,5 +67,5 @@
  <li> Luana T.M.: Parte FrontEnd </li>
  <li> Mirele N.F.: Parte FrontEnd </li>
  <li> Thainá R.R.: Parte BackEnd </li>
- <li> Viviane V.M.: Parte BackEnd </li>
+ <li> Viviane M.M.: Parte BackEnd </li>
 </ul>

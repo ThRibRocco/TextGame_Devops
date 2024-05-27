@@ -1,0 +1,14 @@
+name: Integracao Continua
+
+on: push
+
+jobs:
+  continuous-integration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: comando
+        run: echo $(pwd)
+
+      - name: checkout
+      - uses: actions/checkout@v3

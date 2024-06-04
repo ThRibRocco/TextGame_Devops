@@ -70,3 +70,9 @@
  <li> Thainá R.R.: Parte BackEnd, desenvolvimento da história. </li>
  <li> Viviane M.M.: Parte BackEnd, desenvolvimento da história. </li>
 </ul>
+
+<h2> Tutorial de instalação: </h2>
+<p> Neste tutorial, você pode realizar a instalação da linguagem de programação Python para jogar o nosso jogo em seu computador! </p>
+<ul>
+ <li>Instale o Python acessando o seguinte site: <a href="https://www.python.org/downloads/">Link</a></li>
+</ul>

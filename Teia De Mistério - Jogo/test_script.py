@@ -1,7 +1,7 @@
 import sys
 import time
 import os
-from TeiaDeMistério_Completo.py import digitar_texto, exibir_fala, narra, fim
+from TeiaDeMistério_Completo import digitar_texto, exibir_fala, narra, fim
 
 def test_digitar_texto():
     print("Testing digitar_texto function...")

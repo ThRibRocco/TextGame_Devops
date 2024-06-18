@@ -75,6 +75,6 @@
 <p> Neste tutorial, você pode realizar a instalação da linguagem de programação Python para jogar o nosso jogo em seu computador! </p>
 <ul>
  <li>Instale o Python acessando o seguinte site: <a href="https://www.python.org/downloads/">Link do site</a></li>
- <li>Depois de realizar as devidas configurações do Python, baixe os arquivos do jogo que se encontram neste repositório</li>
- <li>Ao baixar o arquivo do jogo, você pode acessar o jogo ao clicar nele!</li>
+ <li>Depois de realizar as devidas configurações do Python, baixe os arquivos do jogo que se encontram na pasta 'Teia de Mistério - Jogo' neste repositório</li>
+ <li>Ao baixar o arquivo do jogo, você pode acessá-lo ao clicar no arquivo 'TeiaDeMistério.py'</li>
 </ul>

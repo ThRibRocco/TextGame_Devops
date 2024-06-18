@@ -75,7 +75,7 @@ ram_f1 = [
     'Aparentemente os vizinhos não viram e nem ouviram nada de suspeito.',
     'Aqui a ficha dele...'
 ]
-exibir_fala(ramos, ram_f1, 33)
+exibir_fala(ramos, ram_f1, 36)
 
 ficha_kauan = """
             ____________________________________________
@@ -89,9 +89,9 @@ ficha_kauan = """
             | Aparência: Homem de estatura média,        |
             | cabelos castanhos levemente grisalhos e    |
             | olhos azuis                                |               
-            | Nascido Carazinho, interior de Santa       |
-            | Catarina, se mudou para Florianópolis      |
-            |  em 1986.                                  |
+            | Nascido Carazinho, interior do Rio         |
+            | Grande do Sul, se mudou para Florianópolis |
+            | em 1986.                                   |
             |____________________________________________|
             """
 print(ficha_kauan)
@@ -101,153 +101,151 @@ DentroDaCasaK = [
     'Você tem alguns cômodos para investigar:',
     'SALA e QUARTO da vítima.',
     'Ao terminar, você pode SAIR.'
-    ]
-narra(DentroDaCasaK)
+]
+opcoesCasa2 = ['SALA', 'QUARTO', 'SAIR']
 
-escolhaCasa2 = input('PARA ONDE VOCÊ QUER IR? (SALA ou QUARTO): ').upper()
-print()
-opcoesCasa2 = ['SALA', 'QUARTO']
-
-while escolhaCasa2 not in opcoesCasa2:
-    print()
-    print('Digite uma opção válida! (SALA ou QUARTO)')
-    print()
-    escolhaCasa2 = input('PARA ONDE VOCÊ QUER IR?: ')
+while True:
+    narra(DentroDaCasaK)
+    escolhaCasa2 = input('PARA ONDE VOCÊ QUER IR? (SALA, QUARTO ou SAIR): ').upper()
     print()
 
-# SALA DO KAUAN QUEIROZ
-if escolhaCasa2 == 'SALA':
-    sala_kauan = [
-        'Ao entrar pela porta da frente, você se depara com alguns diplomas da Universidade Federal de Santa Catarina.',
-        'Os diplomas estavam no nome de Kauan Queiroz, datados em 20/01/1999'
-    ]
-    narra(sala_kauan)
-
-    investigaSala2 = [
-        'Você pode olhar em alguns lugares:',
-        'Um ARMÁRIO pequeno, as JANELAS e uma ESTANTE cheia de livros.',
-        'Você também pode VOLTAR.'
-    ]
-    narra(investigaSala2)
-
-    opcoesSala2 = ['ARMÁRIO', 'JANELAS', 'ESTANTE', 'VOLTAR']
-    escolhaSala2 = input('ONDE VOCÊ QUER OLHAR? (ÁRMARIO, JANELAS, ESTANTE ou VOLTAR): ').upper()
-    print()
-    
-    while escolhaSala2 not in opcoesSala2:
+    while escolhaCasa2 not in opcoesCasa2:
         print()
-        print('Digite uma opção válida! (ÁRMARIO, JANELAS, ESTANTE ou VOLTAR)')
+        print('Digite uma opção válida! (SALA, QUARTO ou SAIR)')
         print()
-        escolhaSala2 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
+        escolhaCasa2 = input('PARA ONDE VOCÊ QUER IR? (SALA, QUARTO ou SAIR): ').upper()
         print()
 
-    while escolhaSala2 != 'VOLTAR':
-        # ARMÁRIO DA SALA DO KAUAN QUEIROZ
-        if escolhaSala2 == 'ARMÁRIO':
-            armario = [
-                'Você procura por algum tipo de rastro deixado pelo assassino.',
-                'Você encontra algumas contas e folhetos.',
-                'Nada que vá te ajudar agora.'
-            ]
-            narra(armario)
-        elif escolhaSala2 == 'ESTANTE':
-            estanteKauan = [
-                'Em meio a diversos livros sobre leis nacionais e internacionais e matérias em jornais sobre alguns casos que Kauan foi juiz, você encontra uma certidão de casamento'
-            ]
-            narra(estanteKauan)
-            certidaoKauan ='''
-    
-            +-----------------------------------------------------------------------+
-            |                        CERTIDÃO DE CASAMENTO                          |
-            |                                                                       |
-            | Data do casamento:       10 de fevereiro de 2002                      |
-            |                                                                       |
-            | Esposo:                  Kauan Queiroz                                |
-            | Esposa:                  Eloise Bittencourt                           |
-            |                                                                       |
-            | Testemunhas:                                                          |
-            |                 Joanna Queiroz      Rozana Amadeuz                    |
-            |                                                                       |
-            |                                                                       |
-            | Assinatura do Esposo            Assinatura da Esposa                  |
-            |    Kauan Queiroz                 Eloise Bittencourt                   |
-            +-----------------------------------------------------------------------+
-            '''
-            print(certidaoKauan)
-            print()
-        #JANELAS KAUAN QUEIROZ
-        elif escolhaSala2 == 'JANELAS':
-            janelaKauan = [
-                'Você tenta procurar por algum rastro deixado por algo ou alguém.',
-                'Tudo parece normal.'
-            ]
-            narra(janelaKauan)
+    if escolhaCasa2 == 'SAIR':
+        break
+
+    # SALA DO KAUAN QUEIROZ
+    if escolhaCasa2 == 'SALA':
+        sala_kauan = [
+            'Ao entrar pela porta da frente, você se depara com alguns diplomas da Universidade Federal de Santa Catarina.',
+            'Os diplomas estavam no nome de Kauan Queiroz, datados em 20/01/1999'
+        ]
+        narra(sala_kauan)
+
+        investigaSala2 = [
+            'Você pode olhar em alguns lugares:',
+            'Um ARMÁRIO pequeno, as JANELAS e uma ESTANTE cheia de livros.',
+            'Você também pode VOLTAR.'
+        ]
+        narra(investigaSala2)
+
+        opcoesSala2 = ['ARMÁRIO', 'JANELAS', 'ESTANTE', 'VOLTAR']
+        escolhaSala2 = input('ONDE VOCÊ QUER OLHAR? (ARMÁRIO, JANELAS, ESTANTE ou VOLTAR): ').upper()
+        print()
         
-        print('Você pode checar ARMÁRIO, a ESTANTE e as JANELAS, ou você pode VOLTAR.')
-        escolhaSala2 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
-        print()
-
         while escolhaSala2 not in opcoesSala2:
             print()
-            print('Digite uma opção válida! (ÁRMARIO, JANELAS, ESTANTE ou VOLTAR)')
+            print('Digite uma opção válida! (ARMÁRIO, JANELAS, ESTANTE ou VOLTAR)')
             print()
-            escolhaSala2 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
+            escolhaSala2 = input('ONDE VOCÊ QUER OLHAR? (ARMÁRIO, JANELAS, ESTANTE ou VOLTAR): ').upper()
             print()
 
-narra(DentroDaCasaK)
-escolhaCasa2 = input('PARA ONDE VOCÊ QUER IR?: ').upper()
-print()
+        while escolhaSala2 != 'VOLTAR':
+            if escolhaSala2 == 'ARMÁRIO':
+                armario = [
+                    'Você procura por algum tipo de rastro deixado pelo assassino.',
+                    'Você encontra algumas contas e folhetos.',
+                    'Nada que vá te ajudar agora.'
+                ]
+                narra(armario)
+            elif escolhaSala2 == 'ESTANTE':
+                estanteKauan = [
+                    'Em meio a diversos livros sobre leis nacionais e internacionais e matérias em jornais sobre alguns casos que Kauan foi juiz, você encontra uma certidão de casamento'
+                ]
+                narra(estanteKauan)
+                certidaoKauan = '''
+                +-----------------------------------------------------------------------+
+                |                        CERTIDÃO DE CASAMENTO                          |
+                |                                                                       |
+                | Data do casamento:       10 de fevereiro de 2002                      |
+                |                                                                       |
+                | Esposo:                  Kauan Queiroz                                |
+                | Esposa:                  Eloise Bittencourt                           |
+                |                                                                       |
+                | Testemunhas:                                                          |
+                |                 Joanna Queiroz      Rozana Amadeuz                    |
+                |                                                                       |
+                |                                                                       |
+                | Assinatura do Esposo            Assinatura da Esposa                  |
+                |    Kauan Queiroz                 Eloise Bittencourt                   |
+                +-----------------------------------------------------------------------+
+                '''
+                print(certidaoKauan)
+                print()
+            elif escolhaSala2 == 'JANELAS':
+                janelaKauan = [
+                    'Você tenta procurar por algum rastro deixado por algo ou alguém.',
+                    'Tudo parece normal.'
+                ]
+                narra(janelaKauan)
+            
+            print('Você pode checar ARMÁRIO, a ESTANTE e as JANELAS ou você pode VOLTAR.')
+            escolhaSala2 = input('ONDE VOCÊ QUER OLHAR? (ARMÁRIO, JANELAS, ESTANTE ou VOLTAR): ').upper()
+            print()
 
-#QUARTO DO KAUAN QUEIROZ
-if escolhaCasa2 == 'QUARTO':
-    quartoKauan = [
-        'Entrando no quarto, a porta do ARMÁRIO está aberta, mas você também se depara com o CORPO de Kauan.',
-        'Ele está sentado em sua ESCRIVANINHA.'
-    ]
-    narra(quartoKauan)
+            while escolhaSala2 not in opcoesSala2:
+                print()
+                print('Digite uma opção válida! (ARMÁRIO, JANELAS, ESTANTE ou VOLTAR)')
+                print()
+                escolhaSala2 = input('ONDE VOCÊ QUER OLHAR? (ARMÁRIO, JANELAS, ESTANTE ou VOLTAR): ').upper()
+                print()
 
-    opcoesQuarto2 = ['CORPO', 'ESCRIVANINHA', 'ARMÁRIO', 'VOLTAR']
-    escolhaQuarto2 = input('ONDE VOCÊ QUER OLHAR? (CORPO, ESCRIVANINHA, ARMÁRIO ou VOLTAR): ').upper()
-    print()
-    
-    while escolhaQuarto2 not in opcoesQuarto2:
+    # QUARTO DO KAUAN QUEIROZ
+    elif escolhaCasa2 == 'QUARTO':
+        quartoKauan = [
+            'Entrando no quarto, a porta do ARMÁRIO está aberta, mas você também se depara com o CORPO de Kauan.',
+            'Ele está sentado em sua ESCRIVANINHA.'
+        ]
+        narra(quartoKauan)
+
+        opcoesQuarto2 = ['CORPO', 'ESCRIVANINHA', 'ARMÁRIO', 'VOLTAR']
+        escolhaQuarto2 = input('ONDE VOCÊ QUER OLHAR? (CORPO, ESCRIVANINHA, ARMÁRIO ou VOLTAR): ').upper()
         print()
-        print('Digite uma opção válida! (CORPO, ESCRIVANINHA, ARMÁRIO ou VOLTAR)')
-        print()
-        escolhaQuarto2 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
-        print()
-
-    while escolhaQuarto2 != 'VOLTAR':
-        #CORPO DO KAUAN QUEIROZ
-        if escolhaQuarto2 == 'CORPO':
-            corpoKauan = [
-                'Ao olhar mais de perto o cadáver de Kauan você percebe algumas coisas:',
-                'O tiro veio de trás da cabeça, atravessando-a e saindo pela testa.',
-                'A segunda coisa que você percebe é que claramente Kauan não sabia que iria morrer.'
-            ]
-            narra(corpoKauan)
-        #ESCRIVANINHA DO KAUAN QUEIROZ
-        elif escolhaQuarto2 == 'ESCRIVANINHA':
-            escrivaninhaKauan = [
-                'Kauan parecia estar lendo alguns papéis antes de morrer. Agora estão todos manchados de sangue.',
-                'Algo sobre o que você vê te faz pensar que ele estava trabalhando em algum caso de roubo.'
-            ]
-            narra(escrivaninhaKauan)
-        #ARMÁRIO DO KAUAN QUEIROZ
-        elif escolhaQuarto2 == 'ARMÁRIO':
-            armarioKauan = [
-                'Você vê muitas roupas em cores variadas de preto e cinza na parte masculina do armário.',
-                'Em contraste, você olha para o lado feminino você vê roupas em diversas cores, bem diversificado.',
-                'Não parece ter nada interessante aqui.'
-            ]
-            narra(armarioKauan)
-
+        
         while escolhaQuarto2 not in opcoesQuarto2:
             print()
             print('Digite uma opção válida! (CORPO, ESCRIVANINHA, ARMÁRIO ou VOLTAR)')
             print()
-            escolhaQuarto2 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
+            escolhaQuarto2 = input('ONDE VOCÊ QUER OLHAR? (CORPO, ESCRIVANINHA, ARMÁRIO ou VOLTAR): ').upper()
             print()
+
+        while escolhaQuarto2 != 'VOLTAR':
+            if escolhaQuarto2 == 'CORPO':
+                corpoKauan = [
+                    'Ao olhar mais de perto o cadáver de Kauan você percebe algumas coisas:',
+                    'O tiro veio de trás da cabeça, atravessando-a e saindo pela testa.',
+                    'A segunda coisa que você percebe é que claramente Kauan não sabia que iria morrer.'
+                ]
+                narra(corpoKauan)
+            elif escolhaQuarto2 == 'ESCRIVANINHA':
+                escrivaninhaKauan = [
+                    'Kauan parecia estar lendo alguns papéis antes de morrer. Agora estão todos manchados de sangue.',
+                    'Algo sobre o que você vê te faz pensar que ele estava trabalhando em algum caso de roubo.'
+                ]
+                narra(escrivaninhaKauan)
+            elif escolhaQuarto2 == 'ARMÁRIO':
+                armarioKauan = [
+                    'Você vê muitas roupas em cores variadas de preto e cinza na parte masculina do armário.',
+                    'Em contraste, você olha para o lado feminino você vê roupas em diversas cores, bem diversificado.',
+                    'Não parece ter nada interessante aqui.'
+                ]
+                narra(armarioKauan)
+
+            print('Você pode checar o CORPO, a ESCRIVANINHA e o ARMÁRIO ou você pode VOLTAR.')
+            escolhaQuarto2 = input('ONDE VOCÊ QUER OLHAR? (CORPO, ESCRIVANINHA, ARMÁRIO ou VOLTAR): ').upper()
+            print()
+
+            while escolhaQuarto2 not in opcoesQuarto2:
+                print()
+                print('Digite uma opção válida! (CORPO, ESCRIVANINHA, ARMÁRIO ou VOLTAR)')
+                print()
+                escolhaQuarto2 = input('ONDE VOCÊ QUER OLHAR? (CORPO, ESCRIVANINHA, ARMÁRIO ou VOLTAR): ').upper()
+                print()
 
 entradaK = [
     'Você sente que não consegue muitas informações só investigando a casa.',
@@ -258,7 +256,18 @@ ram_f2 = [
     'A viúva ainda está muito abalada, não quis falar muito nem responder as perguntas que fizemos...',
     'Mas peguei o número de contato dela no caso de querer tentar de novo mais tarde.'
 ]
-exibir_fala(ramos, ram_f2, 33)
+exibir_fala(ramos, ram_f2, 36)
+print()
+entradaK = [
+    'Você sente que não consegue muitas informações só investigando a casa.',
+    'Você decide se encontrar com o policial Ramos para ver se consegue mais informações'
+]
+
+ram_f2 = [
+    'A viúva ainda está muito abalada, não quis falar muito nem responder as perguntas que fizemos...',
+    'Mas peguei o número de contato dela no caso de querer tentar de novo mais tarde.'
+]
+exibir_fala(ramos, ram_f2, 36)
 print()
 
 finalCasaK = [

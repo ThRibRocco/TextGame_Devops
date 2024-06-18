@@ -51,11 +51,11 @@ def fim():
 
         print(linha_formatada)
         time.sleep(2)
-#----------------------------------------------------------
+# --------------------------------------------------------- #
 '''
 FASE 1 - 2.0
 '''
-'''
+
 #COMEÇO FASE 1
 localCasaMarcos = [
     'SÃO PAULO, 04 DE FEVEREIRO DE 2000',
@@ -79,7 +79,7 @@ lau_f1 = [
     'Um na testa de Marcos e outro na bochecha da esposa, Yara, que já foi levada para o hospital.',
     'O pessoal já separou umas pistas. Essa é a ficha da vítima:'
 ]
-exibir_fala(laurentino, lau_f1, 33)
+exibir_fala(laurentino, lau_f1, 36)
 print()
 
 #FICHA MARCOS MATARAZZO
@@ -106,164 +106,160 @@ DentroDaCasaM = [
     'Você tem alguns cômodos para investigar:',
     'SALA, JARDIM e QUARTO da vítima.'
 ]
-narra(DentroDaCasaM)
 
-escolhaCasa1 = input('PARA ONDE VOCÊ QUER IR?: ').upper()
-print()
-opcoesCasa1 = ['SALA', 'QUARTO', 'JARDIM']
+opcoesCasa1 = ['SALA', 'QUARTO', 'JARDIM', 'SAIR']
 
-while escolhaCasa1 not in opcoesCasa1:
-    print()
-    print('Digite uma opção válida! (SALA, QUARTO ou JARDIM)')
-    print()
-    escolhaCasa1 = input('PARA ONDE VOCÊ QUER IR?: ')
+while True:
+    narra(DentroDaCasaM)
+    escolhaCasa1 = input('PARA ONDE VOCÊ QUER IR? (SALA, QUARTO, JARDIM ou SAIR): ').upper()
     print()
 
-# SALA DO MARCOS MATARAZZO
-if escolhaCasa1 == 'SALA':
-    sala_marcos = [
-        'Ao entrar na sala você vê o corpo de Marcos, ele está usando um PALETÓ de grife. Olhando no rosto dele, você vê uma espressão de choque.',
-        'Você também vê algumas marcas de sangue no CHÃO, uma ESTANTE com algumas fotos do casal e um APARADOR com algumas decorações que parecem mais caras que sua casa.',
-        'Você também pode VOLTAR.'
-    ]
-    narra(sala_marcos)
-
-    opcoesSala1 = ['PALETÓ', 'CHÃO', 'ESTANTE', 'APARADOR', 'VOLTAR']
-    escolhaSala1 = input('ONDE VOCÊ QUER OLHAR? (PALETÓ, CHÃO, ESTANTE, APARADOR ou VOLTAR): ').upper()
-    print()
-    
-    while escolhaSala1 not in opcoesSala1:
+    while escolhaCasa1 not in opcoesCasa1:
         print()
-        print('Digite uma opção válida! (PALETÓ, CHÃO, ESTANTE, APARADOR ou VOLTAR)')
+        print('Digite uma opção válida! (SALA, QUARTO, JARDIM ou SAIR)')
         print()
-        escolhaSala1 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
+        escolhaCasa1 = input('PARA ONDE VOCÊ QUER IR? (SALA, QUARTO, JARDIM ou SAIR): ').upper()
         print()
 
-    while escolhaSala1 != 'VOLTAR':
-        # PALETÓ DO MARCOS MATARAZZO
-        if escolhaSala1 == 'PALETÓ':
-            recibo_marcos = """
-            +-----------------------------------------------------------------------+
-            |                        RECIBO DE ESTACIONAMENTO                       |
-            |                                                                       |
-            |                          Estacionamento Seguro                        |
-            |-----------------------------------------------------------------------|
-            | Data de entrada:      04/02/2000       Horário de entrada:   20:10    |
-            | Data de saída:        04/02/2000       Horário de saída:     21:47    |
-            |-----------------------------------------------------------------------|
-            | Tempo estacionado:                   1 hora e 37 minutos              |
-            |                                                                       |
-            | Valor cobrado:                       R$ 32,00                         |
-            |                                                                       |
-            +-----------------------------------------------------------------------+
-            """
-            paleto = ['Checando os bolsos do paletó do corpo frio de Marcos, você encontra um recibo de estacionamento:']
-            narra(paleto)
-            print(recibo_marcos)
-        # CHÃO DA SALA DO MARCOS MATARAZZO
-        elif escolhaSala1 == 'CHÃO':
-            chaoMarcos = ['Em meio às marcas de sangue próximas do corpo e vários policiais analisando provas, você encontra uma cápsula de bala calibre 9mm']
-            narra(chaoMarcos)
-        # ESTANTE DA SALA DO MARCOS MATARAZZO
-        elif escolhaSala1 == 'ESTANTE':
-            estanteMarcos = ['Você encontra várias revistas de moda, livros de publicidade e arte moderna.',
-                              'Nada que vai te ajudar agora.']
-            narra(estanteMarcos)
-        # APARADOR DA SALA DO MARCOS MATARAZZO
-        elif escolhaSala1 == 'APARADOR':
-            certidaoMarcos = """
-            +-----------------------------------------------------------------------+
-            |                        CERTIDÃO DE CASAMENTO                          |
-            |                                                                       |
-            | Data do casamento:       04 de fevereiro de 1995                      |
-            |                                                                       |
-            | Esposo:                  Marcos Matarazzo                             |
-            | Esposa:                  Yara ██████████                              |
-            |                                                                       |
-            | Testemunhas:                                                          |
-            |                 Victor Matarazzo      Isabela Vieira                  |
-            |                                                                       |
-            |                                                                       |
-            | Assinatura do Esposo            Assinatura da Esposa                  |
-            |   Marcos Matarazzo                 Yara ██████████                    |
-            +-----------------------------------------------------------------------+
-            """
-            aparadorMarcos = [
-                'Você abre as gavetas do aparador.',
-                'Em meio a alguns panfletos e alguns documentos muito bem organizados, você encontra a certidão de casamento de Marcos e Yara'
-            ]
-            narra(aparadorMarcos)
-            print(certidaoMarcos)
+    if escolhaCasa1 == 'SAIR':
+        break
 
-        print('Você pode checar PALETÓ, CHÃO, ESTANTE e o APARADOR, ou você pode VOLTAR.')
-        escolhaSala1 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
+    # SALA DO MARCOS MATARAZZO
+    if escolhaCasa1 == 'SALA':
+        sala_marcos = [
+            'Ao entrar na sala você vê o corpo de Marcos, ele está usando um PALETÓ de grife. Olhando no rosto dele, você vê uma expressão de choque.',
+            'Você também vê algumas marcas de sangue no CHÃO, uma ESTANTE com algumas fotos do casal e um APARADOR com algumas decorações que parecem mais caras que sua casa.',
+            'Você também pode VOLTAR.'
+        ]
+        narra(sala_marcos)
+
+        opcoesSala1 = ['PALETÓ', 'CHÃO', 'ESTANTE', 'APARADOR', 'VOLTAR']
+        escolhaSala1 = input('ONDE VOCÊ QUER OLHAR? (PALETÓ, CHÃO, ESTANTE, APARADOR ou VOLTAR): ').upper()
         print()
         
-        while escolhaSala1 not in opcoesSala1:
-            print()
-            print('Digite uma opção válida! (PALETÓ, CHÃO, ESTANTE, APARADOR ou VOLTAR)')
-            print()
-            escolhaSala1 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
-            print()
+        while escolhaSala1 != 'VOLTAR':
+            if escolhaSala1 == 'PALETÓ':
+                recibo_marcos = """
+                +-----------------------------------------------------------------------+
+                |                        RECIBO DE ESTACIONAMENTO                       |
+                |                                                                       |
+                |                          Estacionamento Seguro                        |
+                |-----------------------------------------------------------------------|
+                | Data de entrada:      04/02/2000       Horário de entrada:   20:10    |
+                | Data de saída:        04/02/2000       Horário de saída:     21:47    |
+                |-----------------------------------------------------------------------|
+                | Tempo estacionado:                   1 hora e 37 minutos              |
+                |                                                                       |
+                | Valor cobrado:                       R$ 32,00                         |
+                |                                                                       |
+                +-----------------------------------------------------------------------+
+                """
+                paleto = ['Checando os bolsos do paletó do corpo frio de Marcos, você encontra um recibo de estacionamento:']
+                narra(paleto)
+                print(recibo_marcos)
+            elif escolhaSala1 == 'CHÃO':
+                chaoMarcos = ['Em meio às marcas de sangue próximas do corpo e vários policiais analisando provas, você encontra uma cápsula de bala calibre 9mm']
+                narra(chaoMarcos)
+            elif escolhaSala1 == 'ESTANTE':
+                estanteMarcos = ['Você encontra várias revistas de moda, livros de publicidade e arte moderna.',
+                                  'Nada que vai te ajudar agora.']
+                narra(estanteMarcos)
+            elif escolhaSala1 == 'APARADOR':
+                certidaoMarcos = """
+                +-----------------------------------------------------------------------+
+                |                        CERTIDÃO DE CASAMENTO                          |
+                |                                                                       |
+                | Data do casamento:       04 de fevereiro de 1995                      |
+                |                                                                       |
+                | Esposo:                  Marcos Matarazzo                             |
+                | Esposa:                  Yara ██████████                              |
+                |                                                                       |
+                | Testemunhas:                                                          |
+                |                 Victor Matarazzo      Isabela Vieira                  |
+                |                                                                       |
+                |                                                                       |
+                | Assinatura do Esposo            Assinatura da Esposa                  |
+                |   Marcos Matarazzo                 Yara ██████████                    |
+                +-----------------------------------------------------------------------+
+                """
+                aparadorMarcos = [
+                    'Você abre as gavetas do aparador.',
+                    'Em meio a alguns panfletos e alguns documentos muito bem organizados, você encontra a certidão de casamento de Marcos e Yara'
+                ]
+                narra(aparadorMarcos)
+                print(certidaoMarcos)
 
-narra(DentroDaCasaM)
-escolhaCasa1 = input('PARA ONDE VOCÊ QUER IR?: ').upper()
-print()
+            print('Você pode checar PALETÓ, CHÃO, ESTANTE e o APARADOR, ou você pode VOLTAR.')
+            escolhaSala1 = input('ONDE VOCÊ QUER OLHAR? (PALETÓ, CHÃO, ESTANTE, APARADOR ou VOLTAR): ').upper()
+            print()
+            
+            while escolhaSala1 not in opcoesSala1:
+                print()
+                print('Digite uma opção válida! (PALETÓ, CHÃO, ESTANTE, APARADOR ou VOLTAR)')
+                print()
+                escolhaSala1 = input('ONDE VOCÊ QUER OLHAR? (PALETÓ, CHÃO, ESTANTE, APARADOR ou VOLTAR): ').upper()
+                print()
 
-#JARDIM MARCOS MATARAZZO
-if escolhaCasa1 == 'JARDIM':
-    jardimMarcos = [
-        'Ao sair pelo jardim, você vê um espaço muito agradável para lazer.',
-        'Você vê algumas flores, um balanço e um gazebo.',
-        'Olhando para a casa, você percebe que uma das janelas está quebrada,',
-        'os cacos do antigo vidro da janela estão para o lado de dentro.'
-    ]
-    narra(jardimMarcos)
-narra(DentroDaCasaM)
-escolhaCasa1 = input('PARA ONDE VOCÊ QUER IR?: ').upper()
-print()
-
-#QUARTO DO MARCOS MATARAZZO
-if escolhaCasa1 == 'QUARTO':
-    quartoMarcos = ['Ao entrar no quarto, você vê um ARMÁRIO bem bagunçado e uma das portas está quebrada.',
-        'Você também vê uma penteadeira cheia de maquiagens e perfumes.',
-        'Olhando na cabeceira da cama você vê uma foto de aparentemente Marcos e Yara sorrindo.'
+    # JARDIM DO MARCOS MATARAZZO
+    elif escolhaCasa1 == 'JARDIM':
+        jardimMarcos = [
+            'Ao sair pelo jardim, você vê um espaço muito agradável para lazer.',
+            'Você vê algumas flores, um balanço e um gazebo.',
+            'Olhando para a casa, você percebe que uma das janelas está quebrada,',
+            'os cacos do antigo vidro da janela estão para o lado de dentro.'
         ]
-    narra(quartoMarcos)
+        narra(jardimMarcos)
 
-    lau_f2 = ['A empregada deu falta de um colar, o dinheiro que estava no cofre e uma arma 9mm que Marcos tinha por segurança.']
-    exibir_fala(laurentino, lau_f2, 31)
-    print('Você pode checar ARMÁRIO ou você pode SAIR.')
-    escolhaQuartoM = input('ONDE VOCÊ QUER OLHAR?: ').upper()
-    print()
-    opcoesQuartoM = ['ARMÁRIO', 'SAIR']
+    # QUARTO DO MARCOS MATARAZZO
+    elif escolhaCasa1 == 'QUARTO':
+        quartoMarcos = [
+            'Ao entrar no quarto, você vê um ARMÁRIO bem bagunçado e uma das portas está quebrada.',
+            'Você também vê uma penteadeira cheia de maquiagens e perfumes.',
+            'Olhando na cabeceira da cama você vê uma foto de aparentemente Marcos e Yara sorrindo.'
+        ]
+        narra(quartoMarcos)
 
-    #ARMÁRIO DO MARCOS MATARAZZO
-    while escolhaQuartoM != 'SAIR':
-        if escolhaQuartoM == 'ARMÁRIO':
-            armarioMarcos = [
-                'Você vê muitas roupas de marcas que você nem sabe pronunciar.',
-                'No meio da bagunça do armário, você encontra um cofre.'
-                ]
-            narra(armarioMarcos)
-            #COFRE
-            cofreMarcos = [
-                'Você afasta algumas roupas para alcançar o cofre.',
-                'Ao olhar a fechadura, você percebe que já foi arrombada.',
-                'Olhando dentro do cofre, você vê que o ladrão ainda deixou algumas jóias e certa quantidade de dinheiro.'
-                ]
-            narra(cofreMarcos)
-
-        print('Você pode checar o ARMÁRIO, ou você pode SAIR.')
-        escolhaQuartoM = input('ONDE VOCÊ QUER OLHAR?: ').upper()
+        lau_f2 = ['A empregada deu falta de um colar, o dinheiro que estava no cofre e uma arma 9mm que Marcos tinha por segurança.']
+        exibir_fala(laurentino, lau_f2, 36)
+        print('Você pode checar ARMÁRIO ou você pode SAIR.')
+        escolhaQuartoM = input('ONDE VOCÊ QUER OLHAR? (ARMÁRIO ou SAIR): ').upper()
         print()
+        opcoesQuartoM = ['ARMÁRIO', 'SAIR']
 
         while escolhaQuartoM not in opcoesQuartoM:
             print()
             print('Digite uma opção válida! (ARMÁRIO ou SAIR)')
             print()
-            escolhaSala1 = input('ONDE VOCÊ QUER OLHAR?: ').upper()
+            escolhaQuartoM = input('ONDE VOCÊ QUER OLHAR? (ARMÁRIO ou SAIR): ').upper()
             print()
+
+        # ARMÁRIO DO MARCOS MATARAZZO
+        while escolhaQuartoM != 'SAIR':
+            if escolhaQuartoM == 'ARMÁRIO':
+                armarioMarcos = [
+                    'Você vê muitas roupas de marcas que você nem sabe pronunciar.',
+                    'No meio da bagunça do armário, você encontra um cofre.'
+                ]
+                narra(armarioMarcos)
+                
+                # COFRE
+                cofreMarcos = [
+                    'Você afasta algumas roupas para alcançar o cofre.',
+                    'Ao olhar a fechadura, você percebe que já foi arrombada.',
+                    'Olhando dentro do cofre, você vê que o ladrão ainda deixou algumas jóias e certa quantidade de dinheiro.'
+                ]
+                narra(cofreMarcos)
+
+            print('Você pode checar o ARMÁRIO, ou você pode SAIR.')
+            escolhaQuartoM = input('ONDE VOCÊ QUER OLHAR? (ARMÁRIO ou SAIR): ').upper()
+            print()
+
+            while escolhaQuartoM not in opcoesQuartoM:
+                print()
+                print('Digite uma opção válida! (ARMÁRIO ou SAIR)')
+                print()
+                escolhaQuartoM = input('ONDE VOCÊ QUER OLHAR? (ARMÁRIO ou SAIR): ').upper()
+                print()
 
 #SAINDO DA CASA DO MARCOS MATARAZZO
 saida_casaM = [
@@ -275,9 +271,9 @@ narra(saida_casaM)
 lau_f3 = [
     'A viúva do senhor Marcos está internada no Hospital Esperança, aqui perto. Poderíamos fazer uma visita amanhã, ver se ela pode nos ajudar...'
     ]
-exibir_fala(laurentino, lau_f3, 31)
+exibir_fala(laurentino, lau_f3, 36)
 print()
-'''
+
 #HOSPITAL
 localHospital = [
     'SÃO PAULO, 05 DE FEVEREIRO DE 2000',
@@ -331,6 +327,7 @@ opcoesPerguntaY = ['1', '2', '3', 'SAIR']
 
 perguntaY = input('QUAL PERGUNTA VOCÊ QUER FAZER? (1, 2, 3 ou SAIR): ').upper()
 print()
+detetive = '[VOCÊ]'
 
 while perguntaY not in opcoesPerguntaY:
     print()
@@ -343,7 +340,6 @@ while perguntaY not in opcoesPerguntaY:
 while perguntaY != 'SAIR':
     # PERGUNTA 1
     if perguntaY == '1':
-        detetive = '[VOCÊ]'
         det_p1 = ['Você se lembra de alguma característica do ladrão? Cor da pele, dos olhos ou algo assim?']
         exibir_fala(detetive, det_p1, 33)
         print()

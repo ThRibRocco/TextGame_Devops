@@ -42,9 +42,9 @@
 <h3> As ferramentas que estão sendo usadas no projeto: </h3>
 <ul>
 <li> GitHub </li>
-<li> VSCode (Visual Studio Code), usando CSS e HTML</li>
-<li> GitHub </li>
-<li> Jenkins </li>
+<li> VSCode (Visual Studio Code), utilizando a linguagem de programação Python</li>
+<li> Canva </li>
+<li> Github Actions </li>
 </ul>
 
 <h2> Processo do projeto: </h2>
